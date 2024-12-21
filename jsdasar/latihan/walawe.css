@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(37, 37, 50);
+}
+
+.atas-kanan {
+    width: 10%;
+    height: 200%;
+    position: relative;
+    background-image: url(bg-1.jpg);
+    background-size: cover;
+}

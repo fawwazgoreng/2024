@@ -1,0 +1,92 @@
+<!-- document objeck model -->
+<!-- document = isi html 
+ diatas document ada window dan event -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dom Selection</title>
+  <style>
+    * {
+      border: 2px solid #dedede;
+      padding: 15px;
+      margin: 15px;
+    }
+
+    html {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      max-width: 600px;
+      margin: 30px auto;
+      font-family: sans-serif;
+      color: #333;
+    }
+
+    li:nth-child(2) {
+      background-color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- h1 = node element
+   hello word = node text -->
+
+
+  <!-- HTMLcollection = live
+   nodelist = tdk live -->
+  <h1>hello word</h1>
+  <p>ini adalah <a href="#">link</a> document</p>
+  <center>
+    <table border="1" cellspasing="10" cellpadding="10">
+      <tr>
+        <td>metthod</td>
+        <td>hasil</td>
+      </tr>
+      <tr>
+        <td>getElementById</td>
+        <td>element</td>
+      </tr>
+      <td>getElementByTagName</td>
+      <td>HTMLcollection</td>
+      </tr>
+      <td>getElementByClassName</td>
+      <td>HTMLcollection</td>
+      </tr>
+      <td>query selectors</td>
+      <td>element</td>
+      </tr>
+      </tr>
+      <td>queryselectorsAll</td>
+      <td>node list</td>
+      </tr>
+    </table>
+  </center>
+
+  <h1 id="judul">Hello World</h1>
+  <div id="container">
+    <section id="a">
+      <p class="p1">paragraf 1</p>
+      <a href="http://instagram.com/mikael/hatori">Instagram saya</a>
+      <p class="p2">paragraf 2</p>
+      <p class="p3">paragraf 3</p>
+    </section>
+    <section id="b">
+      <p>paragraf 4</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dignissimos.
+      </p>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+    </section>
+  </div>
+  <script src="test.js"></script>
+</body>
+
+</html>

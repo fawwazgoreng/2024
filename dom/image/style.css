@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: .5% auto;
+    border: 5px solid white;
+    overflow: auto;
+}
+
+.small-img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+/* 添加图片样式 */
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    } 
+}
+
+.fade {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fade-active {
+    opacity: .5;
+}

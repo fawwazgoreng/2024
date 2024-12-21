@@ -1,0 +1,23 @@
+[
+    {
+        "nama": "fawwaz",
+        "absen": "15",
+        "email": "fawwazqe",
+        "jurusan": "rpl",
+        "Dosen": "1"
+    },
+    {
+        "nama": "reza",
+        "absen": "4",
+        "email": "redjah",
+        "jurusan": "rpl",
+        "Dosen": "2"
+    },
+    {
+        "nama": "charly",
+        "absen": "7",
+        "email": "supriupri",
+        "jurusan": "rpl",
+        "Dosen": "3"
+    }
+]
